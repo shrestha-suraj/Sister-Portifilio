@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+form{
+    width:500px;
+    height: fit-content;
+    color:white;
+    float: left;
+}
+form input{
+    width:80%;
+    padding: 15px 0px 10px 0px;
+    border-radius: 50px;
+    
+    
+}
+form textarea{
+    width:80%;
+    height:200px;
+    font-family: 'Arial';
+    border-radius: 20px;
+}
+form h3{
+    width:80%;
+    text-align: left;
+    margin-top:10px;
+}
+
+.send-message-button{
+    margin-top:40px;
+    border:none;
+    border-radius: 50px;
+    width:200px;
+    background-color:green;
+    color:white;
+    margin-bottom:10px;
+}
+.send-message-button:hover{
+    background-color:greenyellow;
+    color:black;
+}
+.form-wrapper{
+    width:fit-content;
+    height: fit-content;
+    margin:120px 0px 0px 700px;
+}

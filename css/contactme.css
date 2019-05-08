@@ -1,18 +1,12 @@
-*{
-    margin:0;
-}
 form{
     width:500px;
     height: fit-content;
     color:white;
-    float: left;
 }
 form input{
     width:80%;
     padding: 15px 0px 10px 0px;
     border-radius: 50px;
-    
-    
 }
 form textarea{
     width:80%;
@@ -42,5 +36,4 @@ form h3{
 .form-wrapper{
     width:fit-content;
     height: fit-content;
-    margin:120px 0px 0px 700px;
 }

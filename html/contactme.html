@@ -3,6 +3,7 @@
 
 <head>
     <link type='text/css' rel='stylesheet' href='../css/index.css' />
+    <link type='text/css' rel='stylesheet' href='../css/contactme.css' />
     <meta name='viewport' content='width=device-width,initial-scale=1.0'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
@@ -30,19 +31,21 @@
                 </header>
             </div>
             <div class='content'>
+                <center>
                     <div class='form-wrapper'>
-                            <form action='#' method='POST'>
+                            <form  method='POST'>
                                 <center>
                                     <img src='../images/contact0me.png' style='width:300px;'/>
                                     <div style='background-color: #212121;border:solid green;border-radius: 20px;'>        
                                     <h3>Name:</h3>
-                                    <input id='name' name='name' placeholder="   Eg: John Miller" /><br />
+                                    <input id
+                                    ='name' name='name' placeholder="   Eg: John Miller" /><br />
                                     <h3>Email:</h3>
                                     <input id ='email' name='email' placeholder='   Eg: example@mail.com' /><br />
                                     <h3>Message:</h3>
                                     <textarea id='message' name='message' placeholder="   Enter your Message here"></textarea><br/>
                                     <input type='submit' class='send-message-button' value='Send Message' onclick='alertFunctions();'/>
-                                    </div>
+                                </div>
                                 </center>
                             </form>
                             <script>
@@ -59,9 +62,10 @@
                             }
                             </script>
                             
-                    </div>
+                        </div>
+                    </center>
             </div>
-            <div style='border:solid yellow;height:50px;margin:0;position: relative;'>
+            <div class='footer-div'>
                 <div class='footer'>
                                 <p>&copy; Copyright. Product Creation of Suraksha Shrestha.</p>
                 </div>

@@ -30,6 +30,36 @@
                 </header>
             </div>
             <div class='content'>
+                    <div class='form-wrapper'>
+                            <form action='#' method='POST'>
+                                <center>
+                                    <img src='../images/contact0me.png' style='width:300px;'/>
+                                    <div style='background-color: #212121;border:solid green;border-radius: 20px;'>        
+                                    <h3>Name:</h3>
+                                    <input id='name' name='name' placeholder="   Eg: John Miller" /><br />
+                                    <h3>Email:</h3>
+                                    <input id ='email' name='email' placeholder='   Eg: example@mail.com' /><br />
+                                    <h3>Message:</h3>
+                                    <textarea id='message' name='message' placeholder="   Enter your Message here"></textarea><br/>
+                                    <input type='submit' class='send-message-button' value='Send Message' onclick='alertFunctions();'/>
+                                    </div>
+                                </center>
+                            </form>
+                            <script>
+                            function alertFunctions(){
+                                var name=document.getElementById('name').value;
+                                var email=document.getElementById('email').value;
+                                var message=document.getElementById('message').value;
+                                if(name=='' || email=='' || message==''){
+                                    alert("One or more fields have not been entered.");
+                                }
+                                else{
+                                    alert("Your message has been sent successfully.");
+                                }
+                            }
+                            </script>
+                            
+                    </div>
             </div>
             <div style='border:solid yellow;height:50px;margin:0;position: relative;'>
                 <div class='footer'>

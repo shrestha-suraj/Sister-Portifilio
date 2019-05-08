@@ -1,0 +1,75 @@
+.thought{
+    width:65%;
+    height:150px;
+    margin-top:100px;
+    margin-bottom:20px;
+    margin-left:200px;
+    font-family:cursive;
+}
+.thought p{
+    font-size: 30px;
+    color:yellow;
+}
+.cv{
+    width:55%;
+    height:fit-content;
+    margin-left:200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cv h1{
+    font-size:40px;
+    color:yellow;
+}
+.cv h2{
+    font-size:35px;
+    color:black;
+}
+.cv p{
+    font-size:25px;
+    color:white;
+}
+.grid-container{
+    margin-top:70 px;
+    margin-left: 50 px;
+    width:100%;
+    height:fit-content;
+    display:grid;
+    grid-gap:90px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: minmax(200px,auto);
+}
+.grid-content{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.grid-content h1{
+    font-size: 25px;
+}
+.grid-content p{
+    font-size: 20px;
+    color:white;
+}
+.grid-content:hover {
+	transition: 1s ease;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+/*	-webkit-transform:scale(1.1);
+	transform:scale(1.1);*/
+}
+.grid-content:hover p
+{
+	color: white;
+}
+.grid-content:hover h5
+{
+	color: white;
+}
+.grid-content:hover p a 
+{
+	color: white;
+}
+.cvbutton a
+{
+	text-decoration: none;
+}

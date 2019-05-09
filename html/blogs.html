@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <link type='text/css' rel='stylesheet' href='../css/index.css' />
     <link type='text/css' rel='stylesheet' href='../css/blogs.css' />
+    <link type='text/css' rel='stylesheet' href='../css/blogs-carousal.css' />
     <meta name='viewport' content='width=device-width,initial-scale=1.0'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <div style='border:solid red;' align='right'>
+    <div class='blogs-container'>
         <header>
             <table>
                 <tr>
@@ -29,15 +29,146 @@
                 </tr>
             </table>
         </header>
-    </div>
-    <div class='content'>
-    </div>
-    <div style='border:solid yellow;height:50px;margin:0;position: relative;'>
-        <div class='footer'>
-                        <p>&copy; Copyright. Product Creation of Suraksha Shrestha.</p>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder">
+                    <p class="captionText slideTextFromTop"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="../images/tech4.jpg">
+                    <p class="captionText">Technologies In Our Daily Lives</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="../images/tech1.jpg">
+                    <p class="captionText">Virtual Reality: Makes it Possible</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="../images/tech2.jpg">
+                    <p class="captionText">Human And Technologies: Hand in Hand</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="../images/tech3.jpg">
+                    <p class="captionText">Artificial Dog Playing with The real One</p>
+                </div>
+            </div>
+            <div id="dotsContainer"></div>
         </div>
-    </div>
+        <h2>The development of technologies has led us to many mind-blowing discoveries, better facilities and better
+            luxuries, but at
+            the same it has dramatically changed our daily lives. There are various highly-developed gadgets, connected
+            to
+            the Internet, have changed the way we communicate,use humor, study,work,play and behave.
+        </h2>
+        <div class='articles-wrapper'>
+            <div class='each-card-div'>
+                <center>
+                    <div class='card'>
+                        <div class='card-img-div'>
+                            <img src='../images/vr1.jpg'/>
+                        </div>
+                        <div class='card-text-div'>
+                            <div style='height:160px;width: 100%'>
+                                <p>
+                                Virtual Reality is a technology that creates a simulated environment, unlike traditional user intefaces.
+                                Here, the users are placed inside the experiences.
+                                VR is a way to create a computer-generated environment that immers the user into a fake or virtual world.
+                                Whenever we put on the VR, we are taken to a simulated set-up
+                                making us completely away from the actual surrounding. It incorporates mainly auditory and visual feedback
+                                but can also allow other sensory feedbacks. It can be fantastical
+                                or.....</p>
+                            </div>
+                            <center><button onclick="window.open('http://www.facebook.com/')">Read More</button></center>
+                        </div>
     
+                    </div>
+                </center>
+            </div>
+    
+    
+    
+    
+            <div class='each-card-div'>
+                <center>
+                    <div class='card'>
+                        <div class='card-img-div'>
+                            <img src='../images/drones.jpg'/>
+                        </div>
+                        <div class='card-text-div'>
+                            <div style='height:160px;width: 100%'>
+                                <p>
+                                    The term Drone originated from the military referring to any unmanned aerial vehicle with a pre-programmed
+                                    path. Basically, no human control. Today the term has broadened
+                                    to include anything form highly sophisticated $100,000,000 Global Hawk to this $30 terry-tiny UDI 839
+                                    quadcopter. The quadcopter for propellers is the most consumer drone to
+                                    propellers spil in one direction while the other to spend the opposite which is ofcourse required t6o
+                                    compensate for Newton's......
+                      </p>
+                            </div>
+                            <center><button onclick="window.open('http://www.facebook.com/')">Read More</button></center>
+                        </div>
+    
+                    </div>
+                </center>
+            </div>
+    
+    
+            <div class='each-card-div'>
+                <center>
+                    <div class='card'>
+                        <div class='card-img-div'>
+                            <img src='../images/robot.jpg'/>
+                        </div>
+                        <div class='card-text-div'>
+                            <div style='height:160px;width: 100%'>
+                                <p>
+                                    Robotics is the science and study of the robots. The term 'robot' comes from the Czech word 'Robota'
+                                    meaning forced labour which was coined by Karel Capek in 1921. Robots, as by what comes first to mind, are
+                                    man-made computarized machines which performs
+                                    tasks of human commands or by themselves ans seek to make work easier for human beings. A robot6 is an
+                                    integrated system made up of sensors, manipulate4s, control systems, power supplies and a software, which....
+                      </p>
+                            </div>
+                            <center><button onclick="window.open('http://www.facebook.com/')">Read More</button></center>
+                        </div>
+    
+                    </div>
+                </center>
+            </div>
+    
+    
+    
+    
+            <div class='each-card-div'>
+                <center>
+                    <div class='card'>
+                        <div class='card-img-div'>
+                            <img src='../images/vr1.jpg'/>
+                        </div>
+                        <div class='card-text-div'>
+                            <div style='height:160px;width: 100%'>
+                                <p>
+                                Virtual Reality is a technology that creates a simulated environment, unlike traditional user intefaces.
+                                Here, the users are placed inside the experiences.
+                                VR is a way to create a computer-generated environment that immers the user into a fake or virtual world.
+                                Whenever we put on the VR, we are taken to a simulated set-up
+                                making us completely away from the actual surrounding. It incorporates mainly auditory and visual feedback
+                                but can also allow other sensory feedbacks. It can be fantastical
+                                or.....</p>
+                            </div>
+                            <center><button onclick="window.open('http://www.facebook.com/')">Read More</button></center>
+                        </div>
+    
+                    </div>
+                </center>
+            </div>
+        </div>
+        <footer>&copy; Copyright. Product Creation of Suraksha Shrestha.</footer>
+
+    </div>
     <script src='../js/blogs.js'></script>
-    </body>
-    </html>
+</body>
+
+</html>
